@@ -7,3 +7,10 @@ function load_scripts(){
     wp_enqueue_style( 'bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', array(), '4.0.0', 'all');
 }
 add_action('wp_enqueue_scripts', 'load_scripts');
+
+register_nav_menus(
+    array(
+    'my_main_menu' => 'Main Menu',
+    'footer_menu' => 'Footer Menu'
+    )    
+);
