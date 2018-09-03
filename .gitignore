@@ -1,0 +1,9 @@
+# Ignore bundler config.
+/.bundle
+
+
+# Ignore all logfiles and tempfiles.
+.byebug_history
+
+# Ignore all DS stores
+.DS_Store
