@@ -33,3 +33,5 @@
     </main>
     </div>
 <?php get_footer(); ?>
+
+// this is one example of how to do custom page without a template 
