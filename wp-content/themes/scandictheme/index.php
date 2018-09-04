@@ -4,20 +4,9 @@
 
     <div class="content-area">
     <main>
-    <section class="slide">
-        <div class="container">
-            <section class="row">Slide</section>
-        </div>
-    </section>
-    <section class="services">
-        <div class="container">
-            <div class="row">Services</div>
-        </div>
-    </section>
     <section class="middle-area">
         <div class="container">
             <div class="row">
-                <aside class="sidebar col-md-3">Sidebar</aside>
                 <div class="news col-md-9">
                     <?php 
                     // If there are any posts    
@@ -30,10 +19,11 @@
                     endwhile;
                     else:
                     ?>
-                    <p>There's nothing yet to be displayed</p>
+                    <p>There's nothing yet to be displayed!</p>
 
                     <?php endif; ?>
                 </div>
+                <aside class="sidebar col-md-3 h-100"><?php get_sidebar('blog'); ?></aside>
             </div>
         </div>
     </section>
